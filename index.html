@@ -32,7 +32,7 @@
    <div class="container">
     <h1 class="hero-title">Let's Create Your Dream Interior</h1>
     <p class="hero-text">The world needs innovators and problem solvers who turn challenges into greater opportunities.</p>
-    <button class="hero-btn" type="button">Get Started</button>
+    <button class="hero-btn" type="button" data-modal-open>Get Started</button>
    </div>
 </section>
 
@@ -354,5 +354,18 @@
   </section>
 
  </footer>
+ <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-close" type="button" data-modal-close><svg class="modal-icon_close"><use href="./image/symbol-defs.svg#icon-close"></use></svg></button>
+    <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+    <form class="modal-form">
+      <label class="modal-label">Ім'я
+        <svg class="modal-icon_person"><use href="./image/symbol-defs.svg#icon-person"></use></svg>
+        <input type="text" class="modal-input">
+      </label>
+    </form>
+  </div>
+ </div>
+ <script src="./js/modal.js" type="module"></script>
 </body>
 </html>
