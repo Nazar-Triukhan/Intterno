@@ -1,0 +1,86 @@
+/* <!-- Recent Blogs --> */
+
+.blogs{
+  padding-top: 143px;
+}
+
+.blogs-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+  justify-content: space-between;
+}
+
+.blogs-item{
+  border-radius: 62px;
+border: 1px solid #E7E7E7;
+padding: 21px 21px 55px 21px;
+position: relative;
+}
+
+.blogs-box{
+  display: flex;
+  align-items: center;
+  margin-top: 34px;
+}
+
+.blogs-title{
+text-align: center;
+font-size: 48px;
+line-height: 1.3;
+letter-spacing: 0.22px;
+}
+
+.blogs-text{
+text-align: center;
+font-size: 22px;
+line-height: 1.5;
+letter-spacing: 0.22px;
+width: 589px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 21px;
+margin-bottom: 70px;
+}
+
+.blogs-button{
+  color: var(--text-color);
+font-family: Jost;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.22px;
+
+border: none;
+border-radius: 8px 8px 8px 0px;
+background: var(--button-text-color);
+padding: 9px 10px 11px 10px;
+
+position: absolute;
+top: 244px;
+left: 45px;
+}
+
+.blogs-subtitle{
+font-size: 25px;
+line-height: 1.4;
+letter-spacing: 0.5px;
+width: 334px;
+margin-top: 15px;
+}
+
+.blogs-data{
+line-height: 1.5;
+letter-spacing: 0.22px;
+margin-right: 149px;
+}
+
+.blogs-btn{
+  border-radius: 100px;
+background: #F4F0EC;
+width: 52px;
+height: 52px;
+border: none;
+background-image: url(../image/ritht.png);
+background-repeat: no-repeat;
+background-position: center;
+}

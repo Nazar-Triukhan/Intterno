@@ -1,0 +1,36 @@
+/* hero */
+
+.hero{
+  padding-top: 188px;
+  padding-bottom: 260px;
+  background-image: url(../image/back-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-title{
+font-size: 80px;
+line-height: 1.2;
+letter-spacing: 0.22px;
+width: 595px;
+margin-bottom: 19px;
+}
+
+.hero-text{
+font-size: 22px;
+line-height: 1.5;
+letter-spacing: 0.22px;
+width: 577px;
+margin-bottom: 35px;
+}
+
+.hero-btn{
+border: none;
+color: var(--button-text-color);
+background-color: var(--max-text-color);
+padding-top: 22px;
+padding-bottom: 22px;
+padding-right: 67px;
+padding-left: 37px;
+border-radius: 18px;
+}

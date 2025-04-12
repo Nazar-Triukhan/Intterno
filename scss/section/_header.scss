@@ -1,0 +1,35 @@
+/* nav */
+
+.header{
+  padding-top: 26px;
+  padding-bottom: 30px;
+}
+
+.header-box{
+  display: flex;
+  align-items: center;
+}
+
+.header-img{
+  width: 177px;
+  display: flex;
+}
+
+.header-items{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 505px;
+}
+
+.header-link{
+color: var(--max-text-color);
+font-size: 19px;
+line-height: 1.6;
+letter-spacing: 0.4px;
+}
+
+.header-link:hover{
+  color: var(--mini-text-color);
+  transition: 0.4s;
+}

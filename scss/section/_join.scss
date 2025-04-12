@@ -1,0 +1,39 @@
+/* <!-- join the interno --> */
+
+.join{
+  padding-top: 141px;
+}
+
+.join-box{
+  border-radius: 70px;
+background: #292F36;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 95px;
+}
+
+.join-title{
+  color: var(--button-text-color);
+font-size: 50px;
+line-height: 1.5;
+letter-spacing: 0.22px;
+
+text-align: center;
+}
+
+.join-text{
+  color: var(--button-text-color);
+  text-align: center;
+font-size: 22px;
+line-height: 1.5;
+letter-spacing: 0.22px;
+margin-top: 9px;
+margin-bottom: 31px;
+}
+
+.join-btn{
+background-color: var(--mini-text-color);
+padding: 21px 67px 23px 34px;
+border-radius: 18px;
+color: var(--button-text-color);
+}

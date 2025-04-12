@@ -1,0 +1,55 @@
+/* <!-- footer --> */
+
+.base{
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 111px;
+  padding-top: 130px;
+}
+
+.base-boxs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.base-items{
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.base-text{
+font-size: 22px;
+line-height: 1.5;
+letter-spacing: 0.22px;
+width: 326px;
+margin-top: 15px;
+margin-right: 83px;
+}
+
+.base-title{
+font-size: 25px;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.base-reference{
+  color: #4D5053;
+font-size: 22px;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.base-lists{
+  display: flex;
+  gap: 110px;
+}
+
+.base-list{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.base-geolocation{
+  width: 321px;
+}
